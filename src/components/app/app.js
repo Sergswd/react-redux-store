@@ -10,15 +10,9 @@ const App = () => {
     <main role="main" className="container">
       <ShopHeader />
       <Switch>
-        <Route
-          path="/"
-          component={HomePage}
-          exact />
+        <Route path="/react-redux-store" component={HomePage} exact />
 
-        <Route
-          path="/cart"
-          component={CartPage}
-          />
+        <Route path="/cart" component={CartPage} />
       </Switch>
     </main>
   );
